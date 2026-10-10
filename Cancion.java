@@ -47,6 +47,7 @@ public class Cancion {
     public int getDuracion() {
         return duracion;
     }
+    
 
     public String obtenerDuracionFormateada() {
         int minutos = duracion / 60;

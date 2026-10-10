@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Main {
 
     private static final Scanner teclado = new Scanner(System.in);
-    private static final ListaReproduccion lista =
-            new ListaReproduccion();
+    private static final ListaReproduccionCircular lista =
+            new ListaReproduccionCircular();
 
     public static void main(String[] args) {
         int opcion;
@@ -89,11 +89,14 @@ public class Main {
 
             System.out.println();
 
-        } while (opcion != 13);} 
-
+        } while (opcion != 13);
         teclado.close();
+    } 
+                
 
-    }
+
+
+    
 
     private static void mostrarMenu() {
 
